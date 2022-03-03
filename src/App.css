@@ -1,7 +1,17 @@
 .App {
-  text-align: center;
+  margin-top: 20px;
+  
+}
+.bgcolor {
+  background-color: white;
 }
 
+.Container {
+  border-left: 1.5px solid gainsboro;
+  border-right: 1.5px solid gainsboro;
+  border-bottom: 5px solid gainsboro;;
+  border-top: 1.5px solid white ;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,7 +31,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(228, 211, 211);
 }
 
 .App-link {
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+
