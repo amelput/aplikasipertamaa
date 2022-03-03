@@ -7,8 +7,8 @@ import icon2 from './image/iconn2.png';
 
 export default function App() {
   return (
-    <Container maxWidth="xs" style={{maxWidth: 444}}>
-    <div className="kotak">
+    <Container maxWidth="xs" className="Container">
+    <div className="kotak" >
       <div>
         <Typography style={{
           fontSize: 10, 
