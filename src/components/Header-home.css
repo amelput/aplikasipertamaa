@@ -1,0 +1,21 @@
+.align-center {
+    display: flex;
+    align-items: center;
+  }
+.kotak {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+
+.justify-between-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.justify-center {
+    display: flex;
+    justify-content: center;
+  }
