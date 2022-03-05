@@ -1,14 +1,14 @@
 import React from 'react'
 import "./Header-home.css";
-import {Typography, InputBase} from'@material-ui/core';
+import {Typography, InputBase, Box} from'@material-ui/core';
 import icon from '../image/iconn.png';
 import icon1 from '../image/iconn1.png';
 import icon2 from '../image/iconn2.png';
 
 const Headerhome = () => {
   return (
+    <Box>
     <header className="kotak">
-      <div>
       <div>
         <Typography style={{
           fontSize: 10, 
@@ -42,7 +42,7 @@ const Headerhome = () => {
             </Typography>
           </div>
           <div style={{ marginLeft: 8 }}>
-            <img src={icon1} alt="icon2" style={{widht: 15, height: 15}}></img>
+            <img src={icon1} alt="icon1" style={{widht: 8, height: 15}}></img>
           </div>
         </div>
       </div>
@@ -53,12 +53,12 @@ const Headerhome = () => {
           alt="icon2" 
           style={{widht: 15, height: 15, marginLeft: 5}}>
           </img>
-          <InputBase style={{fontSize: 12, fontFamily: "Roboto"}}placeholder="Cari produk.."/>
+          <InputBase style={{fontSize: 12, fontFamily: "Roboto", marginLeft: 10}}placeholder="Cari produk.."/>
         </div>
         </div>
       </div>
-    </div>
     </header>
+    </Box>
   )
 }
 

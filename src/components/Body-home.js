@@ -1,18 +1,23 @@
 import React from 'react';
 import "./Body-home.css";
-import {Box, Typography} from'@material-ui/core';
+import {Typography, Box,} from '@material-ui/core';
+import Carousel from "./Carousel";
+
 
 
 const Bodyhome =()=> {
     return(
-      <Box clone style={{minWidth: 444,backgroundColor : 'grey', justifyContent:'center'}}>
-        <body>
-            <div>
-                <Typography style={{fontSize: 13, fontFamily: 'Roboto'}}>Informasi Terbaru</Typography>
-                <Typography style={{ color: 'grey', fontSize: 11, fontFamily: 'Roboto'}}>Informasi terbaru hanya untukmu!</Typography>
-            </div>
-        </body>
+        <Box className="garis">
+            <body style={{paddingLeft: 20, paddingRight: 20, paddingTop: 20, marginTop: 5, paddingBottom: 100}}>
+                <div>
+                    <Typography style={{fontSize: 13, fontWeight:'bold', fontFamily: 'Roboto'}}>Informasi Terbaru</Typography>
+                    <Typography style={{ color: 'grey', fontSize: 10, fontFamily: 'Roboto'}}>Informasi terbaru hanya untukmu!</Typography>
+                </div>
+                <Carousel/> 
+            </body>
+            
         </Box>
+ 
     )
 }
 export default Bodyhome;

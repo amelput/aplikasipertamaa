@@ -1,7 +1,7 @@
 .Container {
-  width: 444px;
-  border: 1px solid gainsboro;
-  padding: 0px;
+  width: 100%;
+  max-width: 444px;
+  padding: 0;
 }
 
 
