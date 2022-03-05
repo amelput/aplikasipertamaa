@@ -9,7 +9,7 @@ import button5 from '../image/button5.PNG';
 
 const Buttonhome =()=> {
     return(
-        <Box className="shadow">
+        <Box>
             <div style={{marginTop: 1, justifyContent:'center', display: 'flex', paddingTop: 20, paddingBottom: 5, paddingRight: 20, paddingLeft: 20}}>
             <div style={{border: '0.5px solid gainsboro', marginRight: 7, borderRadius: 10}}>
                 <Button><img src={button1} alt="button1" style={{widht: 25, height: 43}}></img></Button>
